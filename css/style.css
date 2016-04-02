@@ -1,0 +1,44 @@
+/*---------------------------
+Style Sheet for Stag.Camp
+----------------------------*/
+
+* {
+	margin: 0;
+  	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Lora', serif;
+	font-weight: 400;
+	color: #81888e;
+	background: #f4f7f9;
+	overflow-x: hidden;
+}
+
+section.header {
+	display: flex;
+	height: 80vh;
+}
+
+section.header--welcome {
+	min-height: 100%;
+	width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.header--imgs {
+	background: #232323;
+	min-height: 100%;
+	width: 70%;
+}
