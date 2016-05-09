@@ -115,3 +115,8 @@ section.header--imgs img {
 	width: 20%;
 	height: 100%;
 }
+
+section.card {
+	height: 100%;
+	background: steelblue;
+}
