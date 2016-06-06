@@ -17,17 +17,18 @@ html {
 }
 
 body {
-	font-family: 'Lora', serif;
+	font-family: 'Open Sans', 'Lora', serif;
 	font-weight: 400;
 	color: #81888e;
-	background: #f4f7f9;
+	background: #fff;
 	overflow-x: hidden;
 }
 
 h1, h2, h3, h4 {
 	font-family: 'Open Sans', serif;
 	font-weight: 700;
-	color: #232323;
+	color: #f4584c;
+	margin: 0;
 }
 
 p span {
@@ -49,14 +50,41 @@ section.header {
 
 section.header--welcome {
 	min-height: 100%;
-	width: 30%;
+	width: 60%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
-section.header--welcome article,
+section.header--welcome header {
+
+}
+
+section.header--welcome header h1 {
+	font-size: 2.47em;
+    letter-spacing: -0.04em;
+    margin: 0 0 0.18em;
+}
+section.header--welcome header h2 {
+	font-weight: 600;
+	font-size: 1.3em;
+	margin: 0 0 1em;
+
+}
+section.header--welcome header,
+section.header--welcome article {
+	width: 80%;
+	margin: 0 10%;
+	
+}
+
+section.header--welcome article p {
+	font-size: 1.15em;
+	line-height: 1.5em;
+}
+
+/*section.header--welcome article,
 section.header--welcome aside {
 	width: 80%;
 	border: 1px solid #232323;
@@ -65,13 +93,13 @@ section.header--welcome aside {
 section.header--welcome article {
 	margin-bottom: 2.5em; 
 	padding-top: 0.7em;
-}
+}*/
 
-section.header--welcome h1 {
+/*section.header--welcome h1 {
 	font-size: 2.47em;
     letter-spacing: -0.04em;
     margin: 0.45em 0;
-}
+}*/
 
 section.header--welcome img {
 	width: 25%;
@@ -79,11 +107,11 @@ section.header--welcome img {
 
 } 
 
-section.header--welcome article p {
+/*section.header--welcome article p {
 	padding: 0.7em;
     font-size: 1.1em;
     line-height: 1.35em;
-}
+}*/
 
 section.header--welcome aside {
     justify-content: center;
@@ -105,18 +133,81 @@ section.header--welcome button {
 section.header--imgs {
 	background: #232323;
 	min-height: 100%;
-	width: 70%;
+	width: 40%;
 	display: flex;
 	flex-wrap: wrap;
 	overflow: hidden;
 }
 
-section.header--imgs img {
+/*section.header--imgs img {
 	width: 20%;
 	height: 100%;
+}*/
+
+.pho {
+/*	width: 50%;
+	height: 50%;*/
+	clear: both;
 }
+
+#header--photo-01 {
+	background-image: url('../img/intro/001.jpg');
+	background-size: cover;
+	width: 60%;
+}
+
+#header--photo-02 {
+	background-image: url('../img/intro/002.jpg');
+	background-size: cover;
+	width: 40%;
+}
+/*#header--photo-01, #header--photo-02, #header--photo-03, #header--photo-04 {
+	border-bottom: 2px solid #fff;
+}
+
+#header--photo-02, #header--photo-04 {
+	border-left: 2px solid #fff;
+}*/
+
+#header--photo-03 {
+	background-image: url('../img/intro/003.jpg');
+	background-size: cover;
+	width: 40%;
+}
+
+
+#header--photo-04 {
+	background-image: url('../img/intro/004.jpg');
+	background-size: cover;
+	width: 60%;
+}
+
+
+#header--photo-05 {
+	background-image: url('../img/intro/005.jpg');
+	background-size: cover;
+	width: 100%;
+}
+
 
 section.card {
 	height: 100%;
-	background: steelblue;
+	background: #333740;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+section.card h1 {
+	width: 100%;
+	margin: 5% 5% 0;
+}
+section.card header h1{
+/*	margin: 10%;
+	width: 100%;*/
+}
+
+div.news-card {
+	width: 40%;
+	height: 100%;
+	margin: 5%;
 }
