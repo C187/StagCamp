@@ -139,6 +139,13 @@ section.header--imgs {
 	overflow: hidden;
 }
 
+section.header-sideImg {
+	min-height: 100%;
+	width: 40%;
+	background: url('../img/group.jpg') center no-repeat;
+	background-size: cover;
+}
+
 /*section.header--imgs img {
 	width: 20%;
 	height: 100%;
